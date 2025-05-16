@@ -67,7 +67,7 @@ public class Runner {
     }
 
     public boolean check(String input){
-        if (input == null || input.trim().isEmpty()) { // Проверка на null или пустую строку
+        if (input == null || input.trim().isEmpty()) {
             return false;
         }
         try{
